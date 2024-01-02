@@ -280,7 +280,7 @@ addActionButton.addEventListener('click', () => {
   } else {
     let newFruits = {kind: kindInput.value, color: colorInput.value, weight: weightInput.value}
     fruits[fruits.length] = newFruits;
-    display();
+    display(fruits);
   }
   
 });
