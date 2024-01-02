@@ -19,14 +19,14 @@ li {
 }
 
 button {
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: #008cba;
   border: none;
   color: white;
   font-size: 14px;
   font-family: 'Courier New', Courier, monospace;
-  padding: 10px 16px;
-  border-radius: 10px;
+  padding: 5px 16px;
+  border-radius: 3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -34,9 +34,9 @@ button {
 }
 
 input {
-  margin: 5px 10px 5px 0;
+  margin: 5px 5px 5px 0;
   border: 0;
-  padding: 0 10px;
+  padding: 0 5px;
   line-height: 36px;
   display: inline-block;
   vertical-align: middle;
@@ -63,7 +63,7 @@ main {
 
 /* Панель управления */
 .panel__wrapper {
-  flex-basis: 25%;
+  flex-basis: 30%;
   max-height: inherit;
   overflow: hidden;
   background: aliceblue;
@@ -79,12 +79,12 @@ main {
 }
 
 .line {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 /* Список экзотических фруктов */
 .fruits__wrapper {
-  flex-basis: 75%;
+  flex-basis: 70%;
   background: #fff;
   max-height: inherit;
   overflow: hidden;
@@ -100,11 +100,11 @@ main {
 }
 
 .fruit__item {
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   width: fit-content;
   height: 100px;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .fruit_violet {
@@ -131,8 +131,8 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 3px;
   background: #fff;
   height: 100%;
-  padding: 10px;
+  padding: 5px;
 }
