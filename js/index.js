@@ -12,7 +12,6 @@ const weightInput = document.querySelector('.weight__input'); // поле с в�
 const addActionButton = document.querySelector('.add__action__btn'); // кнопка добавления
 const minweight = document.querySelector('.minweight__input');
 const maxweight = document.querySelector('.maxweight__input');
-let priority = ['желтый', 'зеленый', 'розово-красный', 'светло-коричневый', 'фиолетовый' ];
 // список фруктов в JSON формате
 let fruitsJSON = `[
   {"kind": "Мангустин", "color": "фиолетовый", "weight": 13},
@@ -36,7 +35,7 @@ function display(arr){
   let kindli;
   let colorli;
   let weightli;
- 
+   let N = arr.length;
   for (let i = 0; i < arr.length; i++) {
     li = document.createElement('li');
         switch (arr[i].color) {
@@ -45,7 +44,9 @@ function display(arr){
           case 'розово-красный': li.className = 'fruit__item fruit_carmazin'; break;
           case 'желтый': li.className = 'fruit__item fruit_yellow'; break;
           case 'светло-коричневый': li.className = 'fruit__item fruit_lightbrown'; break;
-        }
+          
+        };
+
         fruitsList.appendChild(li);
     
         let div = document.createElement('div');
