@@ -132,13 +132,14 @@ filterButton.addEventListener('click', () => {
 let sortKind = 'bubbleSort'; // инициализация состояния вида сортировки
 let sortTime = '-'; // инициализация состояния времени сортировки
 
-const comparationColor = (a, b) => {
+const comparationColor = (color1, color2) => {
   // TODO: допишите функцию сравнения двух элементов по цвету
-  if(priority.indexOf(a.color) > priority.indexOf(b.color)){
-    return true;}
-    else{
+  if(color1.color > color2.color){
+    return true;
+  }
+  else{
       return false;
-    };
+  };
 };
 
 const sortAPI = {
